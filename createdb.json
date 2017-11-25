@@ -5,7 +5,7 @@
          "Type" : "AWS::RDS::DBSubnetGroup",
          "Properties" : {
             "DBSubnetGroupDescription" : "description",
-            "SubnetIds" : ["subnet-d66df19d", "subnet-44ad7e6b"],
+            "SubnetIds" : ["subnet-ecba6db1 | us-east-1b.testcluster.lopamudram.tk", "subnet-9777e8dc | us-east-1a.testcluster.lopamudram.tk"],
             "Tags" : [ {"Key" : "String", "Value" : "String"} ]
          }
       },
@@ -13,7 +13,7 @@
    "Type" : "AWS::EC2::SecurityGroup",
    "Properties" : {
       "GroupDescription" : "Allow http to client host",
-      "VpcId" : "vpc-3df96045",
+      "VpcId" : "vpc-ec851d94",
       "SecurityGroupIngress" : [{
             "IpProtocol" : "tcp",
             "FromPort" : "3306",
