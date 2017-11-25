@@ -5,7 +5,7 @@
          "Type" : "AWS::RDS::DBSubnetGroup",
          "Properties" : {
             "DBSubnetGroupDescription" : "description",
-            "SubnetIds" : ["subnet-ecba6db1 | us-east-1b.testcluster.lopamudram.tk", "subnet-9777e8dc | us-east-1a.testcluster.lopamudram.tk"],
+            "SubnetIds" : ["subnet-ecba6db1", "subnet-9777e8dc"],
             "Tags" : [ {"Key" : "String", "Value" : "String"} ]
          }
       },
